@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'eventmachine', '=1.0.3'
-gem 'redis', '=3.0.4'
+gem 'em-hiredis'
 
 group :development, :test do
 
